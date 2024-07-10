@@ -6,3 +6,5 @@
 1. Ben Eater [Link](https://eater.net/8bit)
 
 2. Nand2Tetris [Link](https://www.nand2tetris.org)
+
+## Notes (i will try to write)

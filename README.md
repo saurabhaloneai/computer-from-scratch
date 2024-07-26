@@ -10,7 +10,7 @@
 ### Table-of-Contents
 
 - [Overview](#overview)
-- [Why there is war for semiconductor ?](#Why there is war for semiconductor ?)
+- [Why there is war for semiconductor ?](#Why)
 - [computer-0000](#0000)
 - [logic-gates-0001](#0001)
 - [ALU-0010](#0010)

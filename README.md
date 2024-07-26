@@ -11,9 +11,9 @@
 
 - [Overview](#overview)
 - [Why there is war for semiconductor?](#why-there-is-war-for-semiconductor)
-- [computer-0000](#0000)
-- [logic-gates-0001](#0001)
-- [ALU-0010](#0010)
+- [0000-computer](#0000-computer)
+- [0001-logic-gates](#0001-logic-gates)
+- [0010-ALU](#0010-ALU)
 - [0011](#0011)
 - [0100](#0100)
 - [0101](#0101)
@@ -38,3 +38,18 @@ I've decided to follow the [Nand2Tetris](https://www.nand2tetris.org) and [FromT
 
 
 # Why there is war for semiconductor ?
+
+
+### What is Transistor ? 
+
+
+
+
+# 0000-computer
+
+
+
+# 0001-logic-gates
+
+
+# 0010-ALU

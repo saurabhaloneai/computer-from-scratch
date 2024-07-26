@@ -26,7 +26,7 @@
 - [1100](#1100)
 
 
-# Overview
+## Overview
 
 I explored lots of resources for building a computer from first principles, but most were either unstructured or too complex to get easily.
 
@@ -37,7 +37,7 @@ I've decided to follow the [Nand2Tetris](https://www.nand2tetris.org) and [FromT
 
 
 
-# Why there is war for semiconductor ?
+## Why there is war for semiconductor ?
 
 
 ### What is Transistor ? 
@@ -45,11 +45,11 @@ I've decided to follow the [Nand2Tetris](https://www.nand2tetris.org) and [FromT
 
 
 
-# 0000-computer
+## 0000-computer
 
 
 
-# 0001-logic-gates
+## 0001-logic-gates
 
 
-# 0010-ALU
+## 0010-ALU

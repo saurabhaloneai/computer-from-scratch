@@ -34,3 +34,7 @@ I've decided to follow the [Nand2Tetris](https://www.nand2tetris.org) and [FromT
 
 ### What is a hack-computer ?
 
+
+
+
+#Why there is war for semiconductor ?

@@ -13,7 +13,7 @@
 - [Why there is war for semiconductor ?](#why-there-is-war-for-semiconductor-?)
 - [0000-computer](#0000-computer)
 - [0001-logic-gates](#0001-logic-gates)
-- [0010-ALU](#0010-ALU)
+- [0010-Arithmetic Logic Unit](#0010-Arithmetic-Logic-Unit)
 - [0011](#0011)
 - [0100](#0100)
 - [0101](#0101)
@@ -65,4 +65,4 @@ You start building with basic logic gates all the way to working computer.
 ## 0001-logic-gates
 
 
-## 0010-ALU
+## 0010-Arithmetic Logic Unit

@@ -37,4 +37,4 @@ I've decided to follow the [Nand2Tetris](https://www.nand2tetris.org) and [FromT
 
 
 
-#Why there is war for semiconductor ?
+# Why there is war for semiconductor ?

@@ -15,3 +15,10 @@
 
 
 # Overview
+
+I explored lots of resources for building a computer from first principles, but most were either unstructured or too complex to get easily.
+
+I've decided to follow the [Nand2Tetris](https://www.nand2tetris.org) and [FromTheTransitor](https://www.fromthetransistor.com/) since I prefer to focus less on electronics. In the future, I might explore the [Ben Eater](https://eater.net) way.
+
+### What is a hack-computer ?
+

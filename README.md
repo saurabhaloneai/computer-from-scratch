@@ -1,6 +1,4 @@
-> so it started with this tweet ! 
-
-<img src="https://github.com/saurabhaloneai/computer-from-scratch/blob/main/images/Screenshot%202024-07-10%20at%2010.25.39%E2%80%AFAM.png"  width="435">
+### Let's Build this !!!
 
 > Resource 
 
@@ -12,7 +10,9 @@
 
 4. for logic gates and chips [Link](https://b1391bd6-da3d-477d-8c01-38cdf774495a.filesusr.com/ugd/44046b_f2c9e41f0b204a34ab78be0ae4953128.pdf)
 
-5. From the transistor [Link](https://www.fromthetransistor.com/) -> fucking cool 
+5. From the transistor [Link](https://www.fromthetransistor.com/) -> cool 
+
+6. what is transistor [Link](https://www.cs.bu.edu/~best/courses/modules/Transistors2Gates/) -> too good
 
 > Notes (i will try to write)
 

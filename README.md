@@ -88,15 +88,19 @@ You start building with basic logic gates all the way to working computer.
 
 ## 0000-computer
 
-
-
-<table>
+<table style="width: 100%;">
   <tr>
-    <td width="50%">
-      <img src="images/computer.jpg" alt="Description of image">
+    <td style="width: 50%; vertical-align: top;">
+      <img src="images/computer.jpg" alt="Computer processing diagram" style="width: 100%; height: auto;">
     </td>
-    <td width="50%">
-      Your text goes here. You can write your information about the image or any other content you want to appear alongside the image.
+    <td style="width: 50%; vertical-align: top; padding-left: 20px;">
+      <h3>How "Hello World" in Python relates to this processing diagram:</h3>
+      <ol>
+        <li>Input: The Python code <code>print("Hello World")</code> is sent to the central processing unit.</li>
+        <li>Secondary Storage: The Python interpreter and your code file are stored here before execution.</li>
+        <li>Processing: The central processing unit, including the arithmetic/logic unit, processes the code using data from memory.</li>
+        <li>Output: "Hello World" is made available as processed information output.</li>
+      </ol>
     </td>
   </tr>
 </table>

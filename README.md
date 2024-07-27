@@ -56,7 +56,6 @@ You start building with basic logic gates all the way to working computer.
 
 **6. Instruction Set:** the set of commands the computer can execute.
 
-
 ## Why there is hype for semiconductor ?
 
 - To make computers, we need lots of transistors.
@@ -89,6 +88,7 @@ You start building with basic logic gates all the way to working computer.
 
 ## 0000-computer
 
+![computer](images/computer.jpg)
 
 
 ## 0001-logic-gates

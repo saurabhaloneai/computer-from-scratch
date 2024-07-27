@@ -63,13 +63,28 @@ You start building with basic logic gates all the way to working computer.
 
 - To make transistors, we need semiconductors.
 
-- The supply of high-quality semiconductors is limited.
+- The supply of high-quality [semiconductors](https://www.rabobank.com/knowledge/d011371771-mapping-global-supply-chains-the-case-of-semiconductors) is limited.
 
-- Computers are fundamental to modern technology and industries. [(Link_to_Article)](https://www.rabobank.com/knowledge/d011371771-mapping-global-supply-chains-the-case-of-semiconductors)
+- Computers are fundamental to modern technology and industries. 
 
 ### What is Transistor ? 
+ 
+- we need logic gates to make computer, as it is the basic units for performing logical operations in digital circuits.
 
-- 
+- to make logic gates we need transistor, can act as electronic switches and amplifiers.
+
+- common type of transistor used in modern digital circuits is the MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor).
+ 
+- There are two main types of MOSFETs:
+
+  - PMOS (P-channel MOSFET)
+  - NMOS (N-channel MOSFET)
+
+- We use a combination of PMOS and NMOS transistors to create various logic gates and more complex circuits. 
+
+- This combination is known as CMOS (Complementary Metal-Oxide-Semiconductor) technology.
+
+- that's it i will not get into more of this for now.
 
 
 ## 0000-computer

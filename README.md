@@ -59,13 +59,13 @@ You start building with basic logic gates all the way to working computer.
 
 ## Why there is hype for semiconductor ?
 
-To make computers, we need lots of transistors.
+- To make computers, we need lots of transistors.
 
-To make transistors, we need semiconductors.
+- To make transistors, we need semiconductors.
 
-The supply of high-quality semiconductors is limited.
+- The supply of high-quality semiconductors is limited.
 
-Computers are fundamental to modern technology and industries.[Link_to_Article](https://www.rabobank.com/knowledge/d011371771-mapping-global-supply-chains-the-case-of-semiconductors)
+- Computers are fundamental to modern technology and industries. [(Link_to_Article)](https://www.rabobank.com/knowledge/d011371771-mapping-global-supply-chains-the-case-of-semiconductors)
 
 ### What is Transistor ? 
 

@@ -94,7 +94,6 @@ You start building with basic logic gates all the way to working computer.
       <img src="images/computer.jpg" alt="Computer processing diagram" style="width: 100%; height: auto;">
     </td>
     <td style="width: 50%; vertical-align: top; padding-left: 20px;">
-     
       <ol>
         <li>Input: The Python code <code>print("Hello World")</code> is sent to the central processing unit.</li>
         <li>Secondary Storage: The Python interpreter and your code file are stored here before execution.</li>

@@ -10,7 +10,7 @@
 ### Table-of-Contents
 
 - [Overview](#overview)
-- [Why there is war for semiconductor ?](#Why-there-is-war-for-semiconductor-?)
+- [Why there is war for semiconductor ?](#Why-there-is-war-for-semiconductor)
 - [0000-computer](#0000-computer)
 - [0001-logic-gates](#0001-logic-gates)
 - [0010-Arithmetic Logic Unit](#0010-Arithmetic-Logic-Unit)
@@ -42,13 +42,15 @@ You start building with basic logic gates all the way to working computer.
 
 #### Architecture of hack-computer 
 
+![img](images/hack-computer.png)
+
 1. **Arithmetic Logic Unit (ALU)**: This is the core of the computer that performs arithmetic and logical operations.
 
 2. **Registers**: These are small, fast storage locations that hold data and instructions temporarily.
 
 3. **Memory**: This includes both data memory (RAM) and instruction memory (ROM), where programs and data are stored.
 
-4. **Instruction Set**: This is a set of commands that the computer can execute, defining its capabilities and operations.
+4. **Instruction Set**: This is a set of commands that the computer can execute.
 
 ## Why there is war for semiconductor ?
 

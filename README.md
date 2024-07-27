@@ -30,7 +30,7 @@
 
 I explored lots of resources for building a computer from first principles, but most were either unstructured or too complex to get easily.
 
-I've decided to follow the [Nand2Tetris](https://www.nand2tetris.org) and [FromTheTransitor](https://www.fromthetransistor.com/`) since I prefer to focus less on electronics. In the future, I might explore the [Ben Eater](https://eater.net) way.
+I've decided to follow the [Nand2Tetris](https://www.nand2tetris.org) and [FromTheTransitor](https://www.fromthetransistor.com`) since I prefer to focus less on electronics. In the future, I might explore the [Ben Eater](https://eater.net) way.
 
 ### What is a hack-computer ?
 
@@ -70,7 +70,7 @@ You start building with basic logic gates all the way to working computer.
  
 - we need logic gates to make computer, as it is the basic units for performing logical operations in digital circuits.
 
-- to make logic gates we need transistor, can act as electronic switches and amplifiers.
+- to make logic gates we need [transistor](https://www.fromthetransistor.com), can act as electronic switches and amplifiers.
 
 - common type of transistor used in digital circuits is the MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor).
  

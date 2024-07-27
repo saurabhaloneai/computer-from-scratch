@@ -88,19 +88,15 @@ You start building with basic logic gates all the way to working computer.
 
 ## 0000-computer
 
-<table style="width: 100%; border-collapse: collapse;">
+<table>
   <tr>
-    <td style="width: 60%; vertical-align: top; padding-right: 20px;">
-      <img src="images/computer.jpg" alt="Computer processing diagram" style="width: 100%; height: auto; max-width: 600px;">
+    <td width="50%">
+      <img src="images/computer.jpg" alt="Description of image">
     </td>
-    <td style="width: 40%; vertical-align: top;">
-      <ol>
-        <li> the basic components and flow of a computer system, including input, processing (with a central processing unit, memory, and secondary storage), and output.</li>
-      </ol>
-    </td>
+    <td width="50%">
+     the basic components and flow of a computer system, including input, processing (with a central processing unit, memory, and secondary storage), and output. 
   </tr>
 </table>
-
 
 ## 0001-logic-gates
 

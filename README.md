@@ -88,12 +88,12 @@ You start building with basic logic gates all the way to working computer.
 
 ## 0000-computer
 
-<table style="width: 100%;">
+<table style="width: 100%; border-collapse: collapse;">
   <tr>
-    <td style="width: 50%; vertical-align: top;">
-      <img src="images/computer.jpg" alt="Computer processing diagram" style="width: 100%; height: auto;">
+    <td style="width: 60%; vertical-align: top; padding-right: 20px;">
+      <img src="/api/placeholder/600/480" alt="Computer processing diagram" style="width: 100%; height: auto; max-width: 600px;">
     </td>
-    <td style="width: 50%; vertical-align: top; padding-left: 20px;">
+    <td style="width: 40%; vertical-align: top;">
       <ol>
         <li>Input: The Python code <code>print("Hello World")</code> is sent to the central processing unit.</li>
         <li>Secondary Storage: The Python interpreter and your code file are stored here before execution.</li>

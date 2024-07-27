@@ -98,7 +98,7 @@ You start building with basic logic gates all the way to working computer.
   </tr>
 </table>
 
-What is the **[computer](0000/0000.md)** ? 
+What is a **[computer](0000/0000.md)** ? 
 
 
 

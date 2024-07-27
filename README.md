@@ -88,7 +88,18 @@ You start building with basic logic gates all the way to working computer.
 
 ## 0000-computer
 
-![computer](images/computer.jpg)
+
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="images/computer.jpg" alt="Description of image">
+    </td>
+    <td width="50%">
+      Your text goes here. You can write your information about the image or any other content you want to appear alongside the image.
+    </td>
+  </tr>
+</table>
 
 
 ## 0001-logic-gates

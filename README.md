@@ -44,15 +44,15 @@ You start building with basic logic gates all the way to working computer.
 
 ![img](images/hack-computer.png)
 
-**1. Instruction Memory (ROM32K):** Stores the program instructions in read-only memory.
+**1. Instruction Memory (ROM32K):** stores the program instructions in read-only memory.
 
-**2. CPU (Central Processing Unit):** Executes instructions and controls interactions with memory.
+**2. CPU (Central Processing Unit):** executes instructions and controls in & out with memory.
 
-**3. Arithmetic Logic Unit (ALU):** Performs arithmetic and logical operations.
+**3. Arithmetic Logic Unit (ALU):** performs arithmetic and logical operations.
 
-**4. Registers:** Fast storage locations within the CPU for temporary data holding.
+**4. Registers:** fast storage locations within the CPU for temporary data holding.
 
-**5. Data Memory (Memory):** Stores data for the CPU in read/write memory.
+**5. Data Memory (Memory):** stores data for the CPU in read/write memory.
 
 **6. Instruction Set:** the set of commands the computer can execute.
 
@@ -72,16 +72,16 @@ You start building with basic logic gates all the way to working computer.
 
 - to make logic gates we need transistor, can act as electronic switches and amplifiers.
 
-- common type of transistor used in modern digital circuits is the MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor).
+- common type of transistor used in digital circuits is the MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor).
  
 - There are two main types of MOSFETs:
 
   - PMOS (P-channel MOSFET)
   - NMOS (N-channel MOSFET)
 
-- We use a combination of PMOS and NMOS transistors to create various logic gates and more complex circuits. 
+- we use a combination of PMOS and NMOS transistors to create diff logic gates and more complex circuits. 
 
-- This combination is known as CMOS (Complementary Metal-Oxide-Semiconductor) technology.
+- this combination is known as CMOS (Complementary Metal-Oxide-Semiconductor) technology.
 
 - that's it i will not get into more of this for now.
 

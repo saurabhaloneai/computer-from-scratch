@@ -91,14 +91,11 @@ You start building with basic logic gates all the way to working computer.
 <table style="width: 100%; border-collapse: collapse;">
   <tr>
     <td style="width: 60%; vertical-align: top; padding-right: 20px;">
-      <img src="/api/placeholder/600/480" alt="Computer processing diagram" style="width: 100%; height: auto; max-width: 600px;">
+      <img src="images/computer.jpg" alt="Computer processing diagram" style="width: 100%; height: auto; max-width: 600px;">
     </td>
     <td style="width: 40%; vertical-align: top;">
       <ol>
-        <li>Input: The Python code <code>print("Hello World")</code> is sent to the central processing unit.</li>
-        <li>Secondary Storage: The Python interpreter and your code file are stored here before execution.</li>
-        <li>Processing: The central processing unit, including the arithmetic/logic unit, processes the code using data from memory.</li>
-        <li>Output: "Hello World" is made available as processed information output.</li>
+        <li> the basic components and flow of a computer system, including input, processing (with a central processing unit, memory, and secondary storage), and output.</li>
       </ol>
     </td>
   </tr>

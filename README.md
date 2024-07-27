@@ -44,13 +44,18 @@ You start building with basic logic gates all the way to working computer.
 
 ![img](images/hack-computer.png)
 
-1. **Arithmetic Logic Unit (ALU)**: This is the core of the computer that performs arithmetic and logical operations.
+**1. Instruction Memory (ROM32K):** Stores the program instructions in read-only memory.
 
-2. **Registers**: These are small, fast storage locations that hold data and instructions temporarily.
+**2. CPU (Central Processing Unit):** Executes instructions and controls interactions with memory.
 
-3. **Memory**: This includes both data memory (RAM) and instruction memory (ROM), where programs and data are stored.
+**3. Arithmetic Logic Unit (ALU):** Performs arithmetic and logical operations.
 
-4. **Instruction Set**: This is a set of commands that the computer can execute.
+**4. Registers:** Fast storage locations within the CPU for temporary data holding.
+
+**5. Data Memory (Memory):** Stores data for the CPU in read/write memory.
+
+**6. Instruction Set:** Defines the set of commands the computer can execute.
+
 
 ## Why there is war for semiconductor ?
 

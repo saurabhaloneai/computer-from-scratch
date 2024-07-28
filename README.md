@@ -71,6 +71,8 @@ You start building with basic logic gates all the way to working computer.
 - we need logic gates to make computer, as it is the basic units for performing logical operations in digital circuits.
 
 - to make logic gates we need [transistor](https://www.fromthetransistor.com), can act as electronic switches and amplifiers.
+ 
+- transistor is a semiconductor device used to amplify or switch electronic signals.(acting like an on-off switch that helps determine which bits should pass and which should not).
 
 - common type of transistor used in digital circuits is the MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor).
  
@@ -103,6 +105,9 @@ What is a **[computer](0000/0000.md)** ?
 
 
 ## 0001-logic-gates
+
+
+
 
 
 ## 0010-Arithmetic Logic Unit

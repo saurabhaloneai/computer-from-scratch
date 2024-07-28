@@ -10,7 +10,7 @@
 ### Table-of-Contents
 
 - [Overview](#overview)
-- [Why there is hype for semiconductor ?](#Why-there-is-hype-for-semiconductor)
+- [Why there is hype for semiconductor ?](#why-there-is-hype-for-semiconductor)
 - [0000-computer](#0000-computer)
 - [0001-logic-gates](#0001-logic-gates)
 - [0010-Arithmetic Logic Unit](#0010-Arithmetic-Logic-Unit)

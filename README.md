@@ -1,5 +1,7 @@
 # hack-computer
 
+> work in progress 
+
 ![intro](images/dingboard.png)
 
 > [!NOTE]

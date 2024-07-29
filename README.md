@@ -1,5 +1,7 @@
 # hack-computer
 
+![intro](images/intro.png)
+
 > [!NOTE]
 > ... i wanted to understand how computer work.
 >
@@ -60,11 +62,10 @@ You start building with basic logic gates all the way to working computer.
 
 - To make computers, we need lots of transistors.
 
-- To make transistors, we need semiconductors.
+- To make transistors, we need semiconductors(silicon).
 
-- The supply of high-quality [semiconductors](https://www.rabobank.com/knowledge/d011371771-mapping-global-supply-chains-the-case-of-semiconductors) is limited.
+- but how we made cpu out of [semiconductors](https://youtu.be/dX9CGRZwD-w?si=MLNNbRuIsUcUVQHE).
 
-- Computers are fundamental to modern technology and industries. 
 
 ### What is Transistor ? 
  
@@ -105,8 +106,7 @@ What is a **[computer](0000/0000.md)** ? (poorly written blog)
 
 ## 0001-logic-gates
 
-
-
+tech all come down to 
 
 
 ## 0010-Arithmetic Logic Unit

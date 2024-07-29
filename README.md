@@ -1,6 +1,6 @@
 # hack-computer
 
-![intro](images/intro.png)
+![intro](images/dingboard.png)
 
 > [!NOTE]
 > ... i wanted to understand how computer work.

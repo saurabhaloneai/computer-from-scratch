@@ -108,7 +108,16 @@ What is a **[computer](0000/0000.md)** ? (poorly written blog)
 
 ## 0001-logic-gates
 
-tech all come down to 
+AND, OR, NOT is All You Need !!
+
+[Logic gates](0001-week/0001.md) are fundamental components of computer science. Everthing started with logic gates. 
+from performing basic boolean operations that used in arithemtic calculations to control functions. 
+by combining these gates in complex design, computers can process binary data, manage memory,
+and execute instructions, forming the basis of all digital computing operations.
+
+This is simple design of CPU made with logic gates.
+
+![img](images/cpu.gif)
 
 
 ## 0010-Arithmetic Logic Unit

@@ -1,11 +1,10 @@
 # hack-computer
 
-> [!ALERT]
-> work in progress 
-
 ![intro](images/dingboard.png)
 
 > [!NOTE]
+> ... work in progress !!!
+>
 > ... i wanted to understand how computer work.
 >
 > ... “what i cannot build. i do not understand.” ― richard feynman
@@ -134,7 +133,7 @@ cpu is made of logic gates this means alu is too.(logic gates ans mux).
 >
 > Output: A 4-bit result, carry-out, and status flags.
 >
->  but we need to build [16-Bit-ALU](0001-week/0001.md) cause our hack-computer is going to handling the 16-bit in & out.
+>  I staretd with 4-bit implementation but we need to build [16-Bit-ALU](0001-week/0001.md) cause our hack-computer is going to handling the 16-bit in & out.
 
 | Opcode | Operation     | Control Signals | Description                              |
 |--------|---------------|-----------------|------------------------------------------|

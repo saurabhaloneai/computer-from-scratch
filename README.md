@@ -14,11 +14,11 @@
 ### Table-of-Contents
 
 - [Overview](#overview)
-- [Why there is hype for semiconductor ?](#why-there-is-hype-for-semiconductor)
+- [why there is hype for semiconductor ?](#why-there-is-hype-for-semiconductor)
 - [0000-computer](#0000-computer)
 - [0001-logic-gates](#0001-logic-gates)
-- [0010-Arithmetic Logic Unit](#0010-Arithmetic-Logic-Unit)
-- [0011](#0011)
+- [0010-arithmetic logic unit](#0010-Arithmetic-Logic-Unit)
+- [0011-memory](#0011-memory)
 - [0100](#0100)
 - [0101](#0101)
 - [0110](#0110)
@@ -159,4 +159,4 @@ cpu is made of logic gates this means alu is too.(logic gates ans mux).
 - `Operation` : the operations can called by Opcode.
 - `Control Signals`: The signals that control the ALU's operation (e.g., functional units like the adder, logic gates, or shifter).
 
-## 0010-Memory
+## 0011-Memory

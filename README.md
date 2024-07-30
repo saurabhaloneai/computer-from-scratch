@@ -122,21 +122,31 @@ this is simple design of CPU made with logic gates.
 
 ## 0010-Arithmetic Logic Unit
 
-this is the mc of the cpu and it does all the arithemtic calculations(addition, subtraction, multiplication, division and more...).
+this is the mc of the cpu and it does all the arithemtic calculations(addition, subtraction, multiplication, division and more).
 cpu is made of logic gates this means alu is too.(logic gates ans mux).
 
-4-bit ALU example:
-input: Two 4-bit operands (A and B), a 3-bit control signal (to select the operation), and a carry-in bit.
-iutput: A 4-bit result, carry-out, and status flags.
+> ![EXAMPLE]
+>
+>4-bit ALU example:
+>input: Two 4-bit operands (A and B), a 3-bit control signal (to select the operation), and a carry-in bit.
+>iutput: A 4-bit result, carry-out, and status flags
 
-![img-alu](images/4bit-alu.png)
 
-operations:
-000: Add A and B
-001: Subtract B from A
-010: AND A and B
-011: OR A and B
-100: XOR A and B
-101: NOT A
-110: Shift A left
-111: Shift A right
+| Opcode | Operation     | Control Signals | Description                              |
+|--------|---------------|-----------------|------------------------------------------|
+| 0000   | Addition      | Adder enable    | A + B                                    |
+| 0001   | Subtraction   | Adder enable    | A - B (using two's complement)           |
+| 0010   | AND           | Logic enable    | A AND B                                  |
+| 0011   | OR            | Logic enable    | A OR B                                   |
+| 0100   | XOR           | Logic enable    | A XOR B                                  |
+| 0101   | NOT           | Logic enable    | NOT A (applied to each bit of A)         |
+| 0110   | Shift Left    | Shifter enable  | A << 1                                   |
+| 0111   | Shift Right   | Shifter enable  | A >> 1                                   |
+| 1000   | Multiplication| Multiplier enable| A * B (optional, if implemented)         |
+| 1001   | Division      | Divider enable  | A / B (optional, if implemented)         |
+| 1010   | Increment     | Adder enable    | A + 1                                    |
+| 1011   | Decrement     | Adder enable    | A - 1                                    |
+| 1100   | Set on Less   | Comparator enable | Sets output if A < B                    |
+| 1101   | NOP           | None            | No operation                             |
+| 1110   | Clear         | Logic enable    | Clear output (set all bits to 0)         |
+| 1111   | Set           | Logic enable    | Set output (set all bits to 1)           |

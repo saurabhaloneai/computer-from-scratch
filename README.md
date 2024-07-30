@@ -127,7 +127,7 @@ cpu is made of logic gates this means alu is too.(logic gates ans mux).
 
 > [!IMPORTANT]
 >
-> **4-bit ALU** example:
+> **[4-bit ALU](https://www.allaboutcircuits.com/projects/how-to-build-your-own-discrete-4-bit-alu/)** example:
 >
 > Input: Two 4-bit operands (A and B), a 3-bit control signal (to select the operation), and a carry-in bit.
 >

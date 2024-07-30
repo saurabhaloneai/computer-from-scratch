@@ -122,8 +122,8 @@ this is simple design of CPU made with logic gates.
 
 ## 0010-Arithmetic Logic Unit(ALU)
 
-this is the mc of the cpu and it does all the arithemtic calculations(addition, subtraction, multiplication, division and more).
-cpu is made of logic gates this means alu is too.(logic gates ans mux).
+the alu is the computational core of the cpu, performing all arithmetic calculations (`addition`, `subtraction`, `multiplication`, `division`, and more).
+it processes data through various circuits built from basic logic gates and outputs results. since the cpu is made of logic gates, the alu is also composed of logic gates and multiplexers.
 
 > [!IMPORTANT]
 >

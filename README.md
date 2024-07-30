@@ -125,11 +125,14 @@ this is simple design of CPU made with logic gates.
 this is the mc of the cpu and it does all the arithemtic calculations(addition, subtraction, multiplication, division and more).
 cpu is made of logic gates this means alu is too.(logic gates ans mux).
 
-> [!EXAMPLE]
+> [!IMPORTANT]
 >
->4-bit ALU example:
->input: Two 4-bit operands (A and B), a 3-bit control signal (to select the operation), and a carry-in bit.
->iutput: A 4-bit result, carry-out, and status flags
+> **4-bit ALU** example:
+> Input: Two 4-bit operands (A and B), a 3-bit control signal (to select the operation), and a carry-in bit.
+>
+> Output: A 4-bit result, carry-out, and status flags.
+
+
 
 
 | Opcode | Operation     | Control Signals | Description                              |

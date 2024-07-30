@@ -133,7 +133,8 @@ cpu is made of logic gates this means alu is too.(logic gates ans mux).
 > Input: Two 4-bit operands (A and B), a 3-bit control signal (to select the operation), and a carry-in bit.
 >
 > Output: A 4-bit result, carry-out, and status flags.
-
+>
+>  but we need to build [16-Bit-ALU](0001-week/0001.md) cause our hack-computer is going to handling the 16-bit in & out.
 
 | Opcode | Operation     | Control Signals | Description                              |
 |--------|---------------|-----------------|------------------------------------------|
@@ -158,3 +159,5 @@ cpu is made of logic gates this means alu is too.(logic gates ans mux).
 - `Opcode` : a 4-bit binary code to select the operations.
 - `Operation` : the operations can called by Opcode.
 - `Control Signals`: The signals that control the ALU's operation (e.g., functional units like the adder, logic gates, or shifter).
+
+## 0010-Memory

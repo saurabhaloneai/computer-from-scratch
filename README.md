@@ -128,11 +128,10 @@ cpu is made of logic gates this means alu is too.(logic gates ans mux).
 > [!IMPORTANT]
 >
 > **4-bit ALU** example:
+>
 > Input: Two 4-bit operands (A and B), a 3-bit control signal (to select the operation), and a carry-in bit.
 >
 > Output: A 4-bit result, carry-out, and status flags.
-
-
 
 
 | Opcode | Operation     | Control Signals | Description                              |
@@ -153,3 +152,8 @@ cpu is made of logic gates this means alu is too.(logic gates ans mux).
 | 1101   | NOP           | None            | No operation                             |
 | 1110   | Clear         | Logic enable    | Clear output (set all bits to 0)         |
 | 1111   | Set           | Logic enable    | Set output (set all bits to 1)           |
+
+
+- `Opcode` : a 4-bit binary code to select the operations.
+- `Operation` : the operations can called by Opcode.
+- `Control Signals`: The signals that control the ALU's operation (e.g., functional units like the adder, logic gates, or shifter).

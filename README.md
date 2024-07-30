@@ -42,7 +42,7 @@ It is 16-bit computer that you build from scratch as part of the Nand2Tetris cou
 
 It is the simpler to build but fully functional.
 
-You start building with basic logic gates all the way to working computer.
+you start building with basic logic gates all the way to working computer.
 
 #### Architecture of hack-computer 
 
@@ -79,7 +79,7 @@ You start building with basic logic gates all the way to working computer.
 
 - common type of transistor used in digital circuits is the MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor).
  
-- There are two main types of MOSFETs:
+- there are two main types of MOSFETs:
 
   - PMOS (P-channel MOSFET)
   - NMOS (N-channel MOSFET)
@@ -108,16 +108,35 @@ What is a **[computer](0000/0000.md)** ? (poorly written blog)
 
 ## 0001-logic-gates
 
-AND, OR, NOT is All You Need !!
+NAND is All You Need !!
 
-[Logic gates](0001-week/0001.md) are fundamental components of computer science. Everthing started with logic gates. 
+[logic gates](0001-week/0001.md) are fundamental components of computer science. Everthing started with logic gates. 
 from performing basic boolean operations that used in arithemtic calculations to control functions. 
 by combining these gates in complex design, computers can process binary data, manage memory,
-and execute instructions, forming the basis of all digital computing operations.
+and execute instructions. 
 
-This is simple design of CPU made with logic gates.
+this is simple design of CPU made with logic gates.
 
 ![img](images/cpu.gif)
 
 
 ## 0010-Arithmetic Logic Unit
+
+this is the mc of the cpu and it does all the arithemtic calculations(addition, subtraction, multiplication, division and more...).
+cpu is made of logic gates this means alu is too.(logic gates ans mux).
+
+4-bit ALU example:
+input: Two 4-bit operands (A and B), a 3-bit control signal (to select the operation), and a carry-in bit.
+iutput: A 4-bit result, carry-out, and status flags.
+
+![img-alu](images/4bit-alu.png)
+
+operations:
+000: Add A and B
+001: Subtract B from A
+010: AND A and B
+011: OR A and B
+100: XOR A and B
+101: NOT A
+110: Shift A left
+111: Shift A right

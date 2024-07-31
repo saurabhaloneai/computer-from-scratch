@@ -133,7 +133,7 @@ it processes data through various circuits built from basic logic gates and outp
 >
 > Output: A 4-bit result, carry-out, and status flags.
 >
->  I staretd with 4-bit implementation but we need to build [16-Bit-ALU](0001-week/0001.md) cause our hack-computer is going to handle the 16-bit in & out.
+>  I staretd with 4-bit implementation but we need to build [16-Bit-ALU](0001-week/README.md) cause our hack-computer is going to handle the 16-bit in & out.
 
 | Opcode | Operation     | Control Signals | Description                              |
 |--------|---------------|-----------------|------------------------------------------|

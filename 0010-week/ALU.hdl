@@ -3,36 +3,34 @@ CHIP ALU {
     OUT out[16], zr, ng;
 
     PARTS:
-    // Zero x
+ 
     Mux16(a=x, b=false, sel=zx, out=zeroedX);
 
-    // Negate x if needed
+
     Not16(in=zeroedX, out=notX);
     Mux16(a=zeroedX, b=notX, sel=nx, out=processedX);
 
-    // Zero y
+
     Mux16(a=y, b=false, sel=zy, out=zeroedY);
 
-    // Negate y if needed
+  
     Not16(in=zeroedY, out=notY);
     Mux16(a=zeroedY, b=notY, sel=ny, out=processedY);
 
-    // AND or ADD operation
     And16(a=processedX, b=processedY, out=andXY);
     Add16(a=processedX, b=processedY, out=addXY);
     Mux16(a=andXY, b=addXY, sel=f, out=aluOutput);
 
-    // Negate output if needed
+    
     Not16(in=aluOutput, out=notOutput);
     Mux16(a=aluOutput, b=notOutput, sel=no, out=out);
 
-    // Determine if the output is zero (zr)
+   
     Or8Way(in=out[7:0], out=orLow);
     Or8Way(in=out[15:8], out=orHigh);
     Or(a=orLow, b=orHigh, out=orAll);
     Not(in=orAll, out=zr);
 
-    // Determine if the output is negative (ng)
-    // Output is negative if the most significant bit is 1
+    
     And(a=out[15], b=true, out=ng);
 }

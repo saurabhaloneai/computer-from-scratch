@@ -1,0 +1,9 @@
+CHIP Mux {
+    IN a, b, sel;
+    OUT out;
+
+    PARTS:
+    Nand(a=a, b=sel, out=and1);
+    Nand(a=b, b=sel, out=and2);
+    Nand(a=and1, b=and2, out=out);
+}

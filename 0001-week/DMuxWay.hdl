@@ -3,7 +3,7 @@ CHIP DMux8Way {
     OUT a, b, c, d, e, f, g, h;
 
     PARTS:
-    // Use 4-way DMUXes to create 8-way DMUX
+   
     DMux4Way(in=in, sel=sel[2:1], a=a, b=b, c=c, d=d);
     DMux4Way(in=in, sel=sel[2:1], a=e, b=f, c=g, d=h);
 }

@@ -1,0 +1,9 @@
+
+CHIP Nand {
+    IN a, b;
+    OUT out;
+
+    PARTS:
+    // Use built-in NAND gate
+    Nand(a=a, b=b, out=out);
+}

@@ -160,3 +160,11 @@ it processes data through various circuits built from basic logic gates and outp
 - `Control Signals`: The signals that control the ALU's operation (e.g., functional units like the adder, logic gates, or shifter).
 
 ## 0011-Memory
+
+
+
+
+## 0100-Machine language
+
+
+## 0101-Computer Architecture

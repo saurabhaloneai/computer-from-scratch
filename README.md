@@ -8,7 +8,9 @@
 > ... i wanted to understand how computer work.
 >
 > ... “what i cannot build. i do not understand.” ― richard feynman
-> 
+>
+> ...  well, the story we are telling you is that God told us "Here's a logic gate, NAND, now go and build a computer And when we asked God how can we possibly do that, God said "One step at a time" -Shimon Schocken 
+>
 > ... i agreed and this document details my froody journey of building a computer from first principles, don't panic, and always remember to bring your towel! 
 
 ### Table-of-Contents

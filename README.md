@@ -15,7 +15,7 @@
 >
 > ... this repo is just for learning purposes.
 >
-> ... curently writing my understanding in one text pieace just to reflect my understanding of first part computer.
+> ... curently writing my understanding in one text of pieace just to reflect my understanding of first part of computer.
 
 ### Table-of-Contents
 

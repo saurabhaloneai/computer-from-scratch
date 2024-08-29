@@ -13,7 +13,9 @@
 >
 > ... i agreed and this document details my journey of building a computer from first principles, don't panic, and always remember to bring your towel! 
 >
-> ... most of the code is going to be copied for now, i just wanted to understand the func
+> ... this repo is just for learning purposes.()
+>
+> ... currently writing text peace on the first course(nand2tetris).(just to reflect my understanding of computer)
 
 ### Table-of-Contents
 

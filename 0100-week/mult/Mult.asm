@@ -1,9 +1,3 @@
-
-
-// Multiplies R0 and R1 and stores the result in R2.
-// (R0, R1, R2 refer to RAM[0], RAM[1], and RAM[2], respectively.)
-// Assumes that R0 >= 0, R1 >= 0, and R0 * R1 < 32768 (as per the project website)
-
 // VAL0 = R0
 // VAL1 = R1
 // SUM = 0

@@ -1,12 +1,5 @@
 
 
-/**
- * Memory of 512 registers, each 16 bit-wide. Out holds the value
- * stored at the memory location specified by address. If load==1, then 
- * the in value is loaded into the memory location specified by address 
- * (the loaded value will be emitted to out from the next time step onward).
- */
-
 CHIP RAM512 {
     IN in[16], load, address[9];
     OUT out[16];

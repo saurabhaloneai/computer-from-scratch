@@ -13,9 +13,9 @@
 >
 > ... i agreed and this document details my journey of building a computer from first principles, don't panic, and always remember to bring your towel! 
 >
-> ... this repo is just for learning purposes.()
+> ... this repo is just for learning purposes.
 >
-> ... currently writing text peace on the first course(nand2tetris).(just to reflect my understanding of computer)
+> ... curently gathering my understanding in one text pieace just to reflect my understanding of computer.
 
 ### Table-of-Contents
 

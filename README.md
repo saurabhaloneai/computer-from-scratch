@@ -15,7 +15,7 @@
 >
 > ... this repo is just for learning purposes.
 >
-> ... curently writing my understanding in one text of pieace just to reflect my understanding of first part of computer.
+> ... curently writing my understanding in one text ofpieace just to reflect my understanding of first part of computer.
 
 ### Table-of-Contents
 
@@ -54,47 +54,46 @@ you start building with basic logic gates all the way to working computer.
 
 ![img](images/hack-computer.png)
 
-**1. Instruction Memory (ROM32K):** stores the program instructions in read-only memory.
+**Instruction Memory (ROM32K):** stores the program instructions in read-only memory.
 
-**2. CPU (Central Processing Unit):** executes instructions and controls in & out with memory.
+**CPU (Central Processing Unit):** executes instructions and controls in & out with memory.
 
-**3. Arithmetic Logic Unit (ALU):** performs arithmetic and logical operations.
+**Arithmetic Logic Unit (ALU):** performs arithmetic and logical operations.
 
-**4. Registers:** fast storage locations within the CPU for temporary data holding.
+**Registers:** fast storage locations within the CPU for temporary data holding.
 
-**5. Data Memory (Memory):** stores data for the CPU in read/write memory.
+**Data Memory (Memory):** stores data for the CPU in read/write memory.
 
-**6. Instruction Set:** the set of commands the computer can execute.
+**Instruction Set:** the set of commands the computer can execute.
 
 ## Why there is hype for semiconductor?
 
-- To make computers, we need lots of transistors.
+To make computers, we need lots of transistors.
 
-- To make transistors, we need semiconductors(silicon).
+To make transistors, we need semiconductors(silicon).
 
-- but how we made cpu out of [semiconductors](https://youtu.be/dX9CGRZwD-w?si=MLNNbRuIsUcUVQHE).
+but how we made cpu out of [semiconductors](https://youtu.be/dX9CGRZwD-w?si=MLNNbRuIsUcUVQHE).
 
 
 ### What is Transistor ? 
  
-- we need logic gates to make computer, as it is the basic units for performing logical operations in digital circuits.
+we need logic gates to make computer, as it is the basic units for performing logical operations in digital circuits.
 
-- to make logic gates we need [transistor](https://www.fromthetransistor.com), can act as electronic switches and amplifiers.
+to make logic gates we need [transistor](https://www.fromthetransistor.com), can act as electronic switches and amplifiers.
  
-- transistor is a semiconductor device used to amplify or switch electronic signals.(acting like an on-off switch that helps determine which bits should pass and which should not).
-
-- common type of transistor used in digital circuits is the MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor).
+transistor is a semiconductor device used to amplify or switch electronic signals.(acting like an on-off switch that helps determine which bits should pass and which should not).
+common type of transistor used in digital circuits is the MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor).
  
-- there are two main types of MOSFETs:
+there are two main types of MOSFETs:
 
   - PMOS (P-channel MOSFET)
   - NMOS (N-channel MOSFET)
 
-- we use a combination of PMOS and NMOS transistors to create diff logic gates and more complex circuits. 
+we use a combination of PMOS and NMOS transistors to create diff logic gates and more complex circuits. 
 
-- this combination is known as CMOS (Complementary Metal-Oxide-Semiconductor) technology.
+this combination is known as CMOS (Complementary Metal-Oxide-Semiconductor) technology.
 
-- that's it i will not get into more of this for now.
+that's it i will not get into more of this for now.
 
 
 ## 0000-computer
@@ -131,43 +130,7 @@ this is simple design of CPU made with logic gates.
 the alu is the computational core of the cpu, performing all arithmetic calculations (`addition`, `subtraction`, `multiplication`, `division`, and more).
 it processes data through various circuits built from basic logic gates and outputs results. since the cpu is made of logic gates, the alu is also composed of logic gates and multiplexers.
 
-> [!IMPORTANT]
->
-> **[4-bit ALU](https://www.allaboutcircuits.com/projects/how-to-build-your-own-discrete-4-bit-alu/)** example:
->
-> Input: Two 4-bit operands (A and B), a 3-bit control signal (to select the operation), and a carry-in bit.
->
-> Output: A 4-bit result, carry-out, and status flags.
->
->  I staretd with 4-bit implementation but we need to build [16-Bit-ALU](0001-week/README.md) cause our hack-computer is going to handle the 16-bit in & out.
-
-| Opcode | Operation     | Control Signals | Description                              |
-|--------|---------------|-----------------|------------------------------------------|
-| 0000   | Addition      | Adder enable    | A + B                                    |
-| 0001   | Subtraction   | Adder enable    | A - B (using two's complement)           |
-| 0010   | AND           | Logic enable    | A AND B                                  |
-| 0011   | OR            | Logic enable    | A OR B                                   |
-| 0100   | XOR           | Logic enable    | A XOR B                                  |
-| 0101   | NOT           | Logic enable    | NOT A (applied to each bit of A)         |
-| 0110   | Shift Left    | Shifter enable  | A << 1                                   |
-| 0111   | Shift Right   | Shifter enable  | A >> 1                                   |
-| 1000   | Multiplication| Multiplier enable| A * B (optional, if implemented)         |
-| 1001   | Division      | Divider enable  | A / B (optional, if implemented)         |
-| 1010   | Increment     | Adder enable    | A + 1                                    |
-| 1011   | Decrement     | Adder enable    | A - 1                                    |
-| 1100   | Set on Less   | Comparator enable | Sets output if A < B                    |
-| 1101   | NOP           | None            | No operation                             |
-| 1110   | Clear         | Logic enable    | Clear output (set all bits to 0)         |
-| 1111   | Set           | Logic enable    | Set output (set all bits to 1)           |
-
-
-- `Opcode` : a 4-bit binary code to select the operations.
-- `Operation` : the operations can called by Opcode.
-- `Control Signals`: The signals that control the ALU's operation (e.g., functional units like the adder, logic gates, or shifter).
-
 ## 0011-Memory
-
-
 
 
 ## 0100-Machine language
